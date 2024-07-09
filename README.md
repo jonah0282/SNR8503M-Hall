@@ -1,6 +1,6 @@
 Translating Chinese text to English  
 File name:  
-main.c  
+main.c: Done   
 UR_Ctrl.c  
 MC.Parameter.h  
 
