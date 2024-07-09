@@ -2,11 +2,11 @@
 .\obj\snr8503x_cmp.o: .\SNR8503x_Periph_Driver\include\snr8503x_cmp.h
 .\obj\snr8503x_cmp.o: .\SNR8503x_Periph_Driver\include\snr8503x.h
 .\obj\snr8503x_cmp.o: .\Include\basic.h
-.\obj\snr8503x_cmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\snr8503x_cmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\snr8503x_cmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\snr8503x_cmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\snr8503x_cmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\snr8503x_cmp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\snr8503x_cmp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\snr8503x_cmp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\snr8503x_cmp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
+.\obj\snr8503x_cmp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\snr8503x_cmp.o: .\Include\core_cm0.h
 .\obj\snr8503x_cmp.o: .\SNR8503x_Periph_Driver\include\snr8503x_sys.h
 .\obj\snr8503x_cmp.o: .\SNR8503x_Periph_Driver\include\snr8503x_gpio.h

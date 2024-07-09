@@ -2,11 +2,11 @@
 .\obj\interrupt.o: .\Include\hardware_config.h
 .\obj\interrupt.o: .\SNR8503x_Periph_Driver\include\snr8503x.h
 .\obj\interrupt.o: .\Include\basic.h
-.\obj\interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\interrupt.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\interrupt.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\interrupt.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\interrupt.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
+.\obj\interrupt.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\interrupt.o: .\Include\core_cm0.h
 .\obj\interrupt.o: .\SNR8503x_Periph_Driver\include\snr8503x_MCPWM.h
 .\obj\interrupt.o: .\SNR8503x_Periph_Driver\include\snr8503x_sys.h

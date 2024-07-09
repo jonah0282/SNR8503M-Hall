@@ -1,11 +1,11 @@
 .\obj\m1_statemachine.o: Kernal_Source\M1_StateMachine.c
 .\obj\m1_statemachine.o: .\Include\M1_StateMachine.h
-.\obj\m1_statemachine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\m1_statemachine.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\m1_statemachine.o: .\Include\basic.h
-.\obj\m1_statemachine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\m1_statemachine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\m1_statemachine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\m1_statemachine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\m1_statemachine.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\m1_statemachine.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\m1_statemachine.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\m1_statemachine.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
 .\obj\m1_statemachine.o: .\Include\core_cm0.h
 .\obj\m1_statemachine.o: .\Include\global_variable.h
 .\obj\m1_statemachine.o: .\Include\mc_type.h

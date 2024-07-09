@@ -2,11 +2,11 @@
 .\obj\pid.o: .\Include\PID.h
 .\obj\pid.o: .\Include\commonfunc.h
 .\obj\pid.o: .\Include\basic.h
-.\obj\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pid.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\pid.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\pid.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\pid.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
+.\obj\pid.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\pid.o: .\Include\core_cm0.h
 .\obj\pid.o: .\Include\global_variable.h
 .\obj\pid.o: .\Include\mc_type.h

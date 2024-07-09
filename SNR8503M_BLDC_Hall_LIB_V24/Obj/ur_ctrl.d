@@ -1,11 +1,11 @@
 .\obj\ur_ctrl.o: Kernal_Source\UR_Ctrl.c
 .\obj\ur_ctrl.o: .\Include\UR_Ctrl.h
 .\obj\ur_ctrl.o: .\Include\basic.h
-.\obj\ur_ctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\ur_ctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\ur_ctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\ur_ctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\ur_ctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\ur_ctrl.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\ur_ctrl.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\ur_ctrl.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\ur_ctrl.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
+.\obj\ur_ctrl.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\ur_ctrl.o: .\Include\core_cm0.h
 .\obj\ur_ctrl.o: .\Include\hardware_config.h
 .\obj\ur_ctrl.o: .\SNR8503x_Periph_Driver\include\snr8503x.h

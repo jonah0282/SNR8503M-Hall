@@ -1,11 +1,11 @@
 .\obj\global_variable.o: AppFunction\Global_Variable.c
 .\obj\global_variable.o: .\Include\MC_Parameter.h
 .\obj\global_variable.o: .\Include\basic.h
-.\obj\global_variable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\global_variable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\global_variable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\global_variable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\global_variable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\global_variable.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\global_variable.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\global_variable.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\global_variable.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
+.\obj\global_variable.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\global_variable.o: .\Include\core_cm0.h
 .\obj\global_variable.o: .\Include\hardware_config.h
 .\obj\global_variable.o: .\SNR8503x_Periph_Driver\include\snr8503x.h

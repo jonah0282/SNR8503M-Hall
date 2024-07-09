@@ -4,11 +4,11 @@
 .\obj\speedramp.o: .\Include\hardware_config.h
 .\obj\speedramp.o: .\SNR8503x_Periph_Driver\include\snr8503x.h
 .\obj\speedramp.o: .\Include\basic.h
-.\obj\speedramp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\obj\speedramp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\obj\speedramp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\speedramp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\speedramp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\speedramp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdbool.h
+.\obj\speedramp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\obj\speedramp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\ctype.h
+.\obj\speedramp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdio.h
+.\obj\speedramp.o: C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\Bin\..\include\stdint.h
 .\obj\speedramp.o: .\Include\core_cm0.h
 .\obj\speedramp.o: .\SNR8503x_Periph_Driver\include\snr8503x_MCPWM.h
 .\obj\speedramp.o: .\SNR8503x_Periph_Driver\include\snr8503x_sys.h
