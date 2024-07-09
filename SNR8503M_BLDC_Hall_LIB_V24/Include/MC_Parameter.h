@@ -40,11 +40,11 @@
 
 /* -----------------------------Hardware Parameter---------------------------- */
 #define ADC_SUPPLY_VOLTAGE             (3.6)              //Unit: V ADC reference voltage, 3.6 or 2.4, most applications choose 3.6
-/*OPA sampling matching resistor 1K ohms, 200:10=(200/(10.0+1.0)=18.18±∂ */
+/*OPA sampling matching resistor 1K ohms, 200:10=(200/(10.0+1.0)=18.18 times */
 /*The maximum sampling current value of the phase line is   3.6/0.004/(200/(10.0+1.0)) = 44.5A*/
 /*In practical projects, it is important to pay attention to setting the maximum sampling current value reasonably, usually designed according to 3 times the overload*/
 #define AMPLIFICATION_GAIN             (18.18)          	//Operational amplifier amplification factor
-#define RSHUNT                         (0.004)            //Unit: ¶∏ Sampling resistance value
+#define RSHUNT                         (0.004)            //Unit: ohms Sampling resistance value
 #define VOLTAGE_SHUNT_RATIO            ((33.0+1.0)/1.0) 	//Bus voltage divider ratio (pull-down resistance/(pull-up resistance+pull-down resistance))
 
 /* ------------------------------ADC calibration related parameter settings---------------------------- */
@@ -52,7 +52,7 @@
 #define OFFSET_THD                     (3500)   //ADC bias error threshold, no need to modify
 
 /* ----------------------------Current SHORT-------------------------- */
-#define SHORT_BUS_CURRENT              (u16)80 										  /* Short circuit current unit: A*/
+#define SHORT_BUS_CURRENT              (u16)80 										  /* Short circuit current unit:A*/
 #define SHORT_CURRENT_VOL              (SHORT_BUS_CURRENT * RSHUNT) /* Bus current sampling voltage result (preferably within 1.6V)*/
 #define SHORT_CURRENT_DAC              (u16)((SHORT_BUS_CURRENT * RSHUNT * 256)/3)     /* The short-circuit voltage corresponds to the DAC value, and the maximum range of the DAC is 3V */
 
@@ -60,7 +60,7 @@
 #define CURLIM_FUNCTION                0
 #define POWLIM_FUNCTION                1
 #define CUR_POW_SEL        				CURLIM_FUNCTION                           /*Current limiting or power limiting switching 0 Current limiting 1 Power limiting */
-#define MAX_BUS_CURRENT_SETTINT        (u16)18                                   /* Current limiting unit: A*/
+#define MAX_BUS_CURRENT_SETTINT        (u16)3                                   /* Current limiting unit: A*/
 #define CURRENT_ADC_PER_A              (RSHUNT * AMPLIFICATION_GAIN * 32752/3.6)  /* ADC value per ampere current */ 
 #define CURRENT_LIM_VALUE              (u16)(MAX_BUS_CURRENT_SETTINT * CURRENT_ADC_PER_A)  /* Current ADC value */
 #define IevgSum_Kp  Q15(0.05)
@@ -68,8 +68,8 @@
 #define IevgSum_Kc  Q15(0.5)
 #define POW_LIM_VALUE              		 (u32)(24*CURRENT_LIM_VALUE>>7) /* Power ADC value voltage V * current */
 
-#define BUS_CURRENT_FIRST              (u16)20 /* First level current limiting protection unit: A*/
-#define BUS_CURRENT_SECOND             (u16)21 /* Secondary current limiting protection unit: A*/
+#define BUS_CURRENT_FIRST              (u16)14 /* First level current limiting protection unit: A*/
+#define BUS_CURRENT_SECOND             (u16)15 /* Secondary current limiting protection unit: A*/
 #define CURRENT_ADC_PER_A              (RSHUNT * AMPLIFICATION_GAIN * 32752/3.6) /* ADC value per ampere current */ 
 #define OVER_CURRENT_FIRST_THD         (u16)(BUS_CURRENT_FIRST * CURRENT_ADC_PER_A)  /* First level current limiting protection ADC value */
 #define OVER_CURRENT_SECOND_THD        (u16)(BUS_CURRENT_SECOND * CURRENT_ADC_PER_A) /* Second level current limiting protection ADC value */
@@ -78,9 +78,9 @@
 
 /****************************MOS temperature protection*************************************/
 #define MOS_TEMP_UP_VOL              		5    		/* MOS temperature detection pull-up voltage, unit: V */  
-#define MOS_TEMP_UP_RES              		10    /* MOS temperature detection pull-up resistance, unit: K ¶∏ */   
-#define MOS_TEMP_OVER_RES            		1.0  	/* NTC resistance value during MOS over temperature, corresponding to 1.0 at 95 °Ê, voltage 0.45V */ 
-#define RSM_MOS_TEMP_OVER_RES        		3.0  	/* MOS over temperature recovery NTC resistance value, 60 °Ê corresponds to 3.0K, voltage 1.15V */ 
+#define MOS_TEMP_UP_RES              		10    /* MOS temperature detection pull-up resistance, unit: Kohms */   
+#define MOS_TEMP_OVER_RES            		1.0  	/* NTC resistance value during MOS over temperature, corresponding to 1.0 at 95 degrees C, voltage 0.45V */ 
+#define RSM_MOS_TEMP_OVER_RES        		3.0  	/* MOS over temperature recovery NTC resistance value, 60 degrees C corresponds to 3.0K, voltage 1.15V */ 
 #define MOS_TEMP_OVER_THD            		(u32)((MOS_TEMP_OVER_RES * MOS_TEMP_UP_VOL * 32752)/((MOS_TEMP_OVER_RES + MOS_TEMP_UP_RES) * 3.6))
 #define RSM_MOS_TEMP_OVER_THD        		(u32)((RSM_MOS_TEMP_OVER_RES * MOS_TEMP_UP_VOL * 32752)/((RSM_MOS_TEMP_OVER_RES + MOS_TEMP_UP_RES) * 3.6))
 #define MOS_TEMP_OVER_TIME           		500  	/* Unit:ms */   
@@ -108,7 +108,7 @@
 #define EN_MOTOR_BLOCK_DETECT        		(1)       	/* Locked rotor protection detection enable */ 
 #define MOTOR_BLOCK_DETECT_CNT     			(2)       	/* Locked rotor detection frequency */ 
 
-/* ---------------------------- VSP Speed command Parameter 0~5V∂‘”¶AD÷µ0~1800 -------------------------- */
+/* ---------------------------- VSP Speed command Parameter 0-5V corresponds to AD value 0-1800 -------------------------- */
 #define VSP_OFF_VALUE                		(200)       /* VSP closing threshold (0.3V) Unit: AD value*/    
 #define VSP_START_VALUE                	(300)       /* VSP startup threshold (0.5V) Unit: AD value*/          
 #define VSP_MAX_VALUE                		(1800)      /* VSP maximum value (3.2V) Unit: AD value*/    
@@ -119,7 +119,7 @@
 #define EN_IOSET_CWCCW        	 			 	(1)       	/* Read the CW-CCW IO setting and enable CWCCW. The following configuration will be invalid */ 
 #define CW                             	(1)      		/* Motor rotation: clockwise */  
 #define CCW                            	(0)      		/* Motor rotation: counterclockwise*/	
-#define CW_CCW                         	CW      	  /* Motor steering setting£¨effected when EN_IOSET_CWCCW=0*/	
+#define CW_CCW                         	CW      	  /* Motor steering setting effected when EN_IOSET_CWCCW = 0 */
 
 /* ----------------------------Parking brake function----------------------- */
 #define EN_BRAKE                  			0       		/* Motor shutdown brake function */

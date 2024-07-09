@@ -28,11 +28,11 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\UR_Ctrl.h)(0x633332DC)
 I (.\Include\main.h)(0x64415E80)
 F (.\AppFunction\Global_Variable.c)(0x64CA706E)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL --li -g -O2 --apcs=interwork --split_sections -I .\Include -I .\SNR8503x_Periph_Driver\include -I .\SEGGER_RTT-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="540" -DARMCM0-o .\obj\global_variable.o --omf_browse .\obj\global_variable.crf --depend .\obj\global_variable.d)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\basic.h)(0x62C58996)
 I (C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\include\stdbool.h)(0x5E8E9F32)
 I (C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\include\stdlib.h)(0x5E8E9F32)
@@ -95,7 +95,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\M1_StateMachine.h)(0x62F8ED7E)
 I (.\Include\motor_structure.h)(0x646E34DC)
 F (.\Kernal_Source\MosTest.c)(0x642B410C)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL --li -g -O2 --apcs=interwork --split_sections -I .\Include -I .\SNR8503x_Periph_Driver\include -I .\SEGGER_RTT-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="540" -DARMCM0-o .\obj\mostest.o --omf_browse .\obj\mostest.crf --depend .\obj\mostest.d)
@@ -127,7 +127,7 @@ I (.\SNR8503x_Periph_Driver\include\snr8503x_iwdg.h)(0x6321E2F2)
 I (.\SNR8503x_Periph_Driver\include\snr8503x_dsp.h)(0x6442AE80)
 I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\M1_StateMachine.h)(0x62F8ED7E)
 I (.\Include\motor_structure.h)(0x646E34DC)
 F (.\Kernal_Source\main.c)(0x668CF867)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL --li -g -O2 --apcs=interwork --split_sections -I .\Include -I .\SNR8503x_Periph_Driver\include -I .\SEGGER_RTT-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="540" -DARMCM0-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
@@ -159,7 +159,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\PID.h)(0x636FC280)
 I (.\Include\commonfunc.h)(0x636FFB42)
 I (.\Include\MC_Drive.h)(0x644252D6)
@@ -178,7 +178,7 @@ I (C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\include\ctype.h)
 I (C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\include\stdio.h)(0x5E8E9F32)
 I (C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (.\Include\core_cm0.h)(0x613FABC0)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\hardware_config.h)(0x64426A9C)
 I (.\SNR8503x_Periph_Driver\include\snr8503x.h)(0x62193BDE)
 I (.\SNR8503x_Periph_Driver\include\snr8503x_MCPWM.h)(0x6321E276)
@@ -233,7 +233,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\MC_Drive.h)(0x644252D6)
 I (.\Include\main.h)(0x64415E80)
 I (.\Include\SNR_BLDC_HALL_V1p0.h)(0x6442B6F2)
@@ -253,7 +253,7 @@ I (.\Include\core_cm0.h)(0x613FABC0)
 I (.\Include\global_variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
 I (.\Include\absacc.h)(0x613FABBE)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\hardware_config.h)(0x64426A9C)
 I (.\SNR8503x_Periph_Driver\include\snr8503x.h)(0x62193BDE)
 I (.\SNR8503x_Periph_Driver\include\snr8503x_MCPWM.h)(0x6321E276)
@@ -306,7 +306,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\SNR_BLDC_HALL_V1p0.h)(0x6442B6F2)
 I (.\Include\motor_structure.h)(0x646E34DC)
 I (.\Include\M1_StateMachine.h)(0x62F8ED7E)
@@ -341,7 +341,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\motor_structure.h)(0x646E34DC)
 F (.\Kernal_Source\MC_Drive.c)(0x64CA74AA)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL --li -g -O2 --apcs=interwork --split_sections -I .\Include -I .\SNR8503x_Periph_Driver\include -I .\SEGGER_RTT-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="540" -DARMCM0-o .\obj\mc_drive.o --omf_browse .\obj\mc_drive.crf --depend .\obj\mc_drive.d)
 I (.\Include\MC_Drive.h)(0x644252D6)
@@ -373,7 +373,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\SNR_BLDC_HALL_V1p0.h)(0x6442B6F2)
 I (.\Include\motor_structure.h)(0x646E34DC)
 I (.\Include\M1_StateMachine.h)(0x62F8ED7E)
@@ -392,7 +392,7 @@ I (C:\Users\mw6na\AppData\Local\Keil_v5\ARM\Arm_Compiler_5.06u7\include\stdint.h
 I (.\Include\core_cm0.h)(0x613FABC0)
 I (.\Include\global_variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 I (.\Include\hardware_config.h)(0x64426A9C)
 I (.\SNR8503x_Periph_Driver\include\snr8503x.h)(0x62193BDE)
 I (.\SNR8503x_Periph_Driver\include\snr8503x_MCPWM.h)(0x6321E276)
@@ -446,8 +446,8 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
-F (.\Include\MC_Parameter.h)(0x668CF9A0)()
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
+F (.\Include\MC_Parameter.h)(0x668CFEAE)()
 F (.\SNR8503x_Periph_Driver\Source\delay.c)(0x6321D2D4)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL --li -g -O2 --apcs=interwork --split_sections -I .\Include -I .\SNR8503x_Periph_Driver\include -I .\SEGGER_RTT-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="540" -DARMCM0-o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
 I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\basic.h)(0x62C58996)
@@ -647,7 +647,7 @@ I (.\SNR8503x_Periph_Driver\include\delay.h)(0x6333521A)
 I (.\Include\hardware_init.h)(0x64415EDC)
 I (.\Include\Global_Variable.h)(0x64416304)
 I (.\Include\mc_type.h)(0x6321E0FA)
-I (.\Include\MC_Parameter.h)(0x668CF9A0)
+I (.\Include\MC_Parameter.h)(0x668CFEAE)
 F (.\SNR8503x_Periph_Driver\Source\snr8503x_nvr.lib)(0x630AB02C)()
 F (.\SNR8503x_Periph_Driver\include\startup_snr8503x.s)(0x6321D892)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include--pd "__UVISION_VERSION SETA 540" --pd "ARMCM0 SETA 1"--list .\list\startup_snr8503x.lst --xref -o .\obj\startup_snr8503x.o --depend .\obj\startup_snr8503x.d)
 F (.\SEGGER_RTT\SEGGER_RTT.c)(0x628CE8CA)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL --li -g -O2 --apcs=interwork --split_sections -I .\Include -I .\SNR8503x_Periph_Driver\include -I .\SEGGER_RTT-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0\Include-IC:\Users\mw6na\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="540" -DARMCM0-o .\obj\segger_rtt.o --omf_browse .\obj\segger_rtt.crf --depend .\obj\segger_rtt.d)

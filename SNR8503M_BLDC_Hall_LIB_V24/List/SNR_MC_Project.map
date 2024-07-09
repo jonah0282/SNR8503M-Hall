@@ -1179,7 +1179,7 @@ Image Symbol Table
     CalcPI                                   0x00000b63   Thumb Code    56  pid.o(i.CalcPI)
     Clock_Init                               0x00000b9d   Thumb Code    46  hardware_init.o(i.Clock_Init)
     CurrentOffsetCalibration                 0x00000bdd   Thumb Code   160  system_init.o(i.CurrentOffsetCalibration)
-    Current_Limit                            0x00000c91   Thumb Code    44  protect.o(i.Current_Limit)
+    Current_Limit                            0x00000c91   Thumb Code    46  protect.o(i.Current_Limit)
     DAC_Init                                 0x00000cc5   Thumb Code   114  snr8503x_dac.o(i.DAC_Init)
     DAC_OutputValue                          0x00000d49   Thumb Code    44  snr8503x_dac.o(i.DAC_OutputValue)
     DAC_StructInit                           0x00000d79   Thumb Code    10  snr8503x_dac.o(i.DAC_StructInit)
@@ -1578,7 +1578,7 @@ Image component sizes
        988        142          0         33          0       5936   mc_drive.o
        466         84          0          0         32       3074   mostest.o
        124         14          0          0         72       2471   pid.o
-       792        126          0         20          0       5333   protect.o
+       792        124          0         20          0       5333   protect.o
        228         52          0          0          0       1334   sensor_control.o
        178         12          0          0          0       1860   snr8503x_adc.o
        286         18          0          0          0       1696   snr8503x_cmp.o
@@ -1597,7 +1597,7 @@ Image component sizes
        324         32          0          2        271       7573   ur_ctrl.o
 
     ----------------------------------------------------------------------
-      9328       1222        280        100       1296     123040   Object Totals
+      9328       1220        280        100       1296     123040   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         20          0          2          9          1          0   (incl. Padding)
 
@@ -1658,9 +1658,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     11216       1284        344        128       1392     130522   Grand Totals
-     11216       1284        344        128       1392     130522   ELF Image Totals
-     11216       1284        344        128          0          0   ROM Totals
+     11216       1282        344        128       1392     130522   Grand Totals
+     11216       1282        344        128       1392     130522   ELF Image Totals
+     11216       1282        344        128          0          0   ROM Totals
 
 ==============================================================================
 
