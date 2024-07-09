@@ -59,7 +59,7 @@
 /* ----------------------------Current Lim Parameter-------------------------- */
 #define CURLIM_FUNCTION                0
 #define POWLIM_FUNCTION                1
-#define CUR_POW_SEL        				CURLIM_FUNCTION                           /*Current limiting or power limiting switching 0 Current limiting 1 Power limiting */
+#define CUR_POW_SEL        						 CURLIM_FUNCTION                           /*Current limiting or power limiting switching 0 Current limiting 1 Power limiting */
 #define MAX_BUS_CURRENT_SETTINT        (u16)3                                   /* Current limiting unit: A*/
 #define CURRENT_ADC_PER_A              (RSHUNT * AMPLIFICATION_GAIN * 32752/3.6)  /* ADC value per ampere current */ 
 #define CURRENT_LIM_VALUE              (u16)(MAX_BUS_CURRENT_SETTINT * CURRENT_ADC_PER_A)  /* Current ADC value */
