@@ -1,19 +1,19 @@
 /*******************************************************************************
  * all rights reserved (C)2015, SNANER SEMICONDUCTOR Co.ltd
  *
- * file name£º Main.c
- * File ID£º
- * abstract£º Project main code
- * other instructions£º none
- * current version£º V 1.0
- * author£º Li
- * Completion Date£º 2020/8/5
+ * file nameï¼š Main.c
+ * File IDï¼š
+ * abstractï¼š Project main code
+ * other instructionsï¼š none
+ * current versionï¼š V 1.0
+ * authorï¼š Li
+ * Completion Dateï¼š 2020/8/5
  *
- * Modify record 1£º
- * Modification date£º 2020/8/16
- * version number£º V 1.0
- * Modifier£º Li
- * Modify content£º create
+ * Modify record 1ï¼š
+ * Modification dateï¼š 2020/8/16
+ * version numberï¼š V 1.0
+ * Modifierï¼š Li
+ * Modify contentï¼š create
  *
  *******************************************************************************/
 #include "main.h"
@@ -26,12 +26,12 @@
 
 
 /*******************************************************************************
- function name£º    int main(void)
- Function description£º    Main program entry
- Input parameters£º    none
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function nameï¼š    int main(void)
+ Function descriptionï¼š    Main program entry
+ Input parametersï¼š    none
+ Output parametersï¼š    none
+ return valueï¼š    none
+ other instructionsï¼š
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2020/8/5      V1.0             Li          create
@@ -47,7 +47,7 @@ int main(void)
 	Init_Parameter();
 	
 	InitPI();
-	sys_init();            /* ÏµÍ³³õÊ¼»¯ */
+	sys_init();            /* system initialization */
 
 	MosTest();
 	LED_ON
@@ -82,8 +82,8 @@ int main(void)
 
 
 /*******************************************************************************
- function name£º    void Task_Scheduler(void)
- Function description£º    Task scheduling function by time slice
+ function nameï¼š    void Task_Scheduler(void)
+ Function descriptionï¼š    Task scheduling function by time slice
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2022/5/30      V1.0                     create
