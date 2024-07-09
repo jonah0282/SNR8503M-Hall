@@ -182,7 +182,7 @@ void Usart_SendHalfWord( uint16_t ch)
 
 /*******************************************************************************
  function name:    int fputc(int ch, FILE *f)
- function description:    Redirect c Library Functions printf to serial port£¬Available after redirection printf function
+ function description:    Redirect c Library Functions printf to serial port, Available after redirection printf function
  Input parameters:    int ch, FILE *f
  Output parameters:    none
  return value:    none
