@@ -1,13 +1,13 @@
 /*******************************************************************************
  * copyright (C)2019, SNANER SEMICONDUCTOR Co.ltd
  *
- * file name£º parameter.h
- * file identification£º
- * summary£º parameter config
- * other£º none
- * current version£º V1.0
- * Author£º Li
- * completion date£º 2020/8/18
+ * file name: parameter.h
+ * file identification:
+ * summary: parameter config
+ * other: none
+ * current version: V1.0
+ * Author: Li
+ * completion date: 2020/8/18
  *
  *******************************************************************************/
  
@@ -59,7 +59,7 @@
 /* ----------------------------Current Lim Parameter-------------------------- */
 #define CURLIM_FUNCTION                0
 #define POWLIM_FUNCTION                1
-#define CUR_POW_SEL        						 CURLIM_FUNCTION                           /*Current limiting or power limiting switching 0 Current limiting 1 Power limiting */
+#define CUR_POW_SEL        				CURLIM_FUNCTION                           /*Current limiting or power limiting switching 0 Current limiting 1 Power limiting */
 #define MAX_BUS_CURRENT_SETTINT        (u16)18                                   /* Current limiting unit: A*/
 #define CURRENT_ADC_PER_A              (RSHUNT * AMPLIFICATION_GAIN * 32752/3.6)  /* ADC value per ampere current */ 
 #define CURRENT_LIM_VALUE              (u16)(MAX_BUS_CURRENT_SETTINT * CURRENT_ADC_PER_A)  /* Current ADC value */
@@ -83,8 +83,8 @@
 #define RSM_MOS_TEMP_OVER_RES        		3.0  	/* MOS over temperature recovery NTC resistance value, 60 ¡æ corresponds to 3.0K, voltage 1.15V */ 
 #define MOS_TEMP_OVER_THD            		(u32)((MOS_TEMP_OVER_RES * MOS_TEMP_UP_VOL * 32752)/((MOS_TEMP_OVER_RES + MOS_TEMP_UP_RES) * 3.6))
 #define RSM_MOS_TEMP_OVER_THD        		(u32)((RSM_MOS_TEMP_OVER_RES * MOS_TEMP_UP_VOL * 32752)/((RSM_MOS_TEMP_OVER_RES + MOS_TEMP_UP_RES) * 3.6))
-#define MOS_TEMP_OVER_TIME           		500  	/* Unit£ºms */   
-#define RSM_MOS_TEMP_OVER_TIME       		500  	/* Unit£ºms */  
+#define MOS_TEMP_OVER_TIME           		500  	/* Unit:ms */   
+#define RSM_MOS_TEMP_OVER_TIME       		500  	/* Unit:ms */  
 
 /* ---------------------------- Voltage Protect Parameter -------------------------- */
 #define LOW_VOLATAGE_THD_1              5.5     	/* The first section is under voltage, and under voltage protection occurs during motor operation. Unit: V*/

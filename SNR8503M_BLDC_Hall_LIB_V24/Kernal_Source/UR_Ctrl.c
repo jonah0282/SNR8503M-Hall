@@ -1,13 +1,13 @@
 /*******************************************************************************
  * all rights reserved (C)2019, SNANER SEMICONDUCTOR Co.ltd
  *
- * file name£º UartCtrl.c
- * File ID£º
- * abstract£º Motor control UARTSerial control communication protocol
- * other instructions£º 
- * current version£º V1.0
- * author£º   Li
- * Completion Date£º 2022/5/30
+ * file name: UartCtrl.c
+ * File ID:
+ * abstract: Motor control UARTSerial control communication protocol
+ * other instructions: 
+ * current version: V1.0
+ * author:   Li
+ * Completion Date: 2022/5/30
  *
  *******************************************************************************/
 #include "UR_Ctrl.h"
@@ -22,12 +22,12 @@ volatile u8 UART_Flag = 1; //UART Send completion flag
 u8 UartResponceFlag = 0;	//UART Receive completion flag
 
 /*******************************************************************************
- function name£º    void UART1_init_buffer (void)
- Function description£º    UART0 Cache initialization
- Input parameters£º    none
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void UART1_init_buffer (void)
+ Function description:    UART0 Cache initialization
+ Input parameters:    none
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -40,12 +40,12 @@ void UART0_init_buffer(void)
 }
 
 /*******************************************************************************
- function name£º    void UART0_init(void)
- Function description£º    UART0 Register configuration
- Input parameters£º    none
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void UART0_init(void)
+ Function description:    UART0 Register configuration
+ Input parameters:    none
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -84,12 +84,12 @@ void UART0_init(void)
 }
 
 /*******************************************************************************
- function name£º    void UART0_SendByte(uint8_t ch)
- Function description£º    Send a byte
- Input parameters£º    uint8_t ch
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void UART0_SendByte(uint8_t ch)
+ Function description:    Send a byte
+ Input parameters:    uint8_t ch
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -102,12 +102,12 @@ void UART0_SendByte(uint8_t ch)
 }
 
 /*******************************************************************************
- function name£º    void UART0_SendArray(uint8_t *array, uint16_t num)
- Function description£º    send 8 array of bits
- Input parameters£º    uint8_t *array,uint16_t num
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void UART0_SendArray(uint8_t *array, uint16_t num)
+ Function description:    send 8 array of bits
+ Input parameters:    uint8_t *array,uint16_t num
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -126,12 +126,12 @@ void UART0_SendArray(uint8_t *array, uint16_t num)
 }
 
 /*******************************************************************************
- function name£º    void Usart_SendString(char *str)
- Function description£º    Send string
- Input parameters£º    char *str
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void Usart_SendString(char *str)
+ Function description:    Send string
+ Input parameters:    char *str
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -149,12 +149,12 @@ void Usart_SendString(char *str)
 }
 
 /*******************************************************************************
- function name£º    void Usart_SendHalfWord( uint16_t ch)
- Function description£º    send a 16 Number of digits
- Input parameters£º    uint16_t ch
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void Usart_SendHalfWord( uint16_t ch)
+ Function description:    send a 16 Number of digits
+ Input parameters:    uint16_t ch
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -181,12 +181,12 @@ void Usart_SendHalfWord( uint16_t ch)
 
 
 /*******************************************************************************
- function name£º    int fputc(int ch, FILE *f)
- function description£º    Redirect c Library Functions printf to serial port£¬Available after redirection printf function
- Input parameters£º    int ch, FILE *f
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    int fputc(int ch, FILE *f)
+ function description:    Redirect c Library Functions printf to serial port£¬Available after redirection printf function
+ Input parameters:    int ch, FILE *f
+ Output parameters:    none
+ return value:    none
+ other instructions:
  Modification date      version number          Modifier            Modify content
  -----------------------------------------------------------------------------
  2015/11/5      V1.0           Li                  create
@@ -202,12 +202,12 @@ int fputc(int ch, FILE *f)
 }
 
 /*******************************************************************************
- function name£º    void UartDealRX(void)
- Function description£º    Receive UART data and verify
- Input parameters£º    none
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void UartDealRX(void)
+ Function description:    Receive UART data and verify
+ Input parameters:    none
+ Output parameters:    none
+ return value:    none
+ other instructions:
 	 // AA	                      XX XX                     XX XX                       XX XX                  CKM                  55
 	//First code   Set motor electrical cycle(Hz)    Set motor power limit(mW)       reserved           Checksum(Low 8Bit)		   end code
 
@@ -290,12 +290,12 @@ void UartDealRX(void)
 }
 
 /*******************************************************************************
- function name£º    void UartDealTX(void)
- Function description£º    Process the serial port and return data
- Input parameters£º    none
- Output parameters£º    none
- return value£º    none
- other instructions£º
+ function name:    void UartDealTX(void)
+ Function description:    Process the serial port and return data
+ Input parameters:    none
+ Output parameters:    none
+ return value:    none
+ other instructions:
 		//   AA	               XX                                    XX XX                                                XX XX                              XX XX                 XX XX                    XX XX                    CKM                   55
 		//First code   Return motor status    Returns the current electrical cycle of the motor(Hz)     The current power limit of the return motor(mW)     reserved      Return motor error code      Return bus voltage     Checksum (lower 8 bits)		 end code
 
