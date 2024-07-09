@@ -1,6 +1,6 @@
 /*******************************************************************************
  * copyright (C)2019, SNANER SEMICONDUCTOR Co.ltd
- *
+ * 
  * file name: parameter.h
  * file identification:
  * summary: parameter config
