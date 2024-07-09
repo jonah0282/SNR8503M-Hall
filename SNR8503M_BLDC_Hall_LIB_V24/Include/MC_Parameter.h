@@ -87,9 +87,9 @@
 #define RSM_MOS_TEMP_OVER_TIME       		500  	/* Unit:ms */  
 
 /* ---------------------------- Voltage Protect Parameter -------------------------- */
-#define LOW_VOLATAGE_THD_1              5.5     	/* The first section is under voltage, and under voltage protection occurs during motor operation. Unit: V*/
-#define LOW_VOLATAGE_THD_2              6.0   	  /* The second stage is under voltage, and under voltage protection occurs in the standby state of the motor. Unit: V*/
-#define RSM_LO_VOLATAGE_THD             10.0 		  /* Undervoltage recovery voltage unit: V*/
+#define LOW_VOLATAGE_THD_1              21.0     	/* The first section is under voltage, and under voltage protection occurs during motor operation. Unit: V*/
+#define LOW_VOLATAGE_THD_2              20.0   	  /* The second stage is under voltage, and under voltage protection occurs in the standby state of the motor. Unit: V*/
+#define RSM_LO_VOLATAGE_THD             23.0 		  /* Undervoltage recovery voltage unit: V*/
 #define LOW_VOLATAGE_FIRST              (u16)(LOW_VOLATAGE_THD_1 / VOLTAGE_SHUNT_RATIO/3.6*32752)  
 #define LOW_VOLATAGE_SECOND             (u16)(LOW_VOLATAGE_THD_2 / VOLTAGE_SHUNT_RATIO/3.6*32752)  
 #define RSM_LO_VOLATAGE_ADC             (u16)(RSM_LO_VOLATAGE_THD / VOLTAGE_SHUNT_RATIO/3.6*32752)   
@@ -97,8 +97,8 @@
 #define LV_PROTECT_TIME_FAST            50	    	/* Second undervoltage time unit: ms*/
 #define DIS_UV_PROTECT_TIME             500    		/* Undervoltage recovery time delay unit: ms*/
 
-#define OV_VOLTAGE_THD                  78   			/* Overvoltage threshold unit: V*/
-#define RSM_OV_VOLTAGE_THD              70   			/* Overvoltage recovery threshold unit: V*/
+#define OV_VOLTAGE_THD                  50   			/* Overvoltage threshold unit: V*/
+#define RSM_OV_VOLTAGE_THD              45   			/* Overvoltage recovery threshold unit: V*/
 #define OV_VOLTAGE_ADC                  (u16)(OV_VOLTAGE_THD / VOLTAGE_SHUNT_RATIO/3.6*32752)   
 #define RSM_OV_VOLTAGE_ADC              (u16)(RSM_OV_VOLTAGE_THD / VOLTAGE_SHUNT_RATIO/3.6*32752) 
 #define OV_PROTECT_TIME_FAST            10	    	/* Overvoltage time unit: ms*/
@@ -116,7 +116,7 @@
 #define VSP_DUTY_DEC_LOAD        				(1)         /* The PWM DUTY decreases every 1ms, and the greater the value, the faster the deceleration*/ 
 
 /* ----------------------------direction check Parameter----------------------- */
-#define EN_IOSET_CWCCW        	 			 	(1)       	/* Read the CW-CCW IO setting and enable CWCCW. The following configuration will be invalid */ 
+#define EN_IOSET_CWCCW        	 			 	(0)       	/* Read the CW-CCW IO setting and enable CWCCW. The following configuration will be invalid */ 
 #define CW                             	(1)      		/* Motor rotation: clockwise */  
 #define CCW                            	(0)      		/* Motor rotation: counterclockwise*/	
 #define CW_CCW                         	CW      	  /* Motor steering setting effected when EN_IOSET_CWCCW = 0 */
@@ -130,7 +130,7 @@
 
 /* ---------------------------- Motor Speed Close-loop--------------------------- */
 #define EN_MOTOR_SPEED_CLOSELOOP				(0)											/* Speed closed-loop function */
-#define MOTOR_POLES											3											  /* Number of motor poles 10 */
+#define MOTOR_POLES											8											  /* Number of motor poles 10 */
 #define MOTOR_SPEED_X										(((60*1000000>>2)/MOTOR_POLES)*HALL_CLK_K)		/* Speed calculation coefficient */  	// Due to exceeding the data range, MOTOR will be temporarily removed_ SPEED_ Reduce X by 4 times//RPM=MOTOR_ SPEED_ X/T
 #define MOTOR_SPEED_MAX_RPM							10000										/* unit: RPM, Closed loop maximum target speed */
 #define MOTOR_SPEED_MIN_RPM							1000						   				/* unit: RPM, Closed loop minimum target speed */

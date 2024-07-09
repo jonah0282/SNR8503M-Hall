@@ -261,10 +261,10 @@ void UartDealRX(void)
 				//Speed setting
 				if (SpeedCMD > 0)
 				{
-					//Speed control command£¬Speed reference setting SPEED_SET Hz
+					//Speed control command, Speed reference setting SPEED_SET Hz
 					//struAppCommData.wSpeedValue = App2CoreFreqTrans(User2AppFreqTrans(SpeedCMD));	
 					
-					//Power command£¬Power limit setting
+					//Power command, Power limit setting
 					//struMotorSpeed.wPowerLimitValue = PowerCMD;
 					
 //					if((struFOC_CtrProc.bMC_RunFlg == 0) && (stru_Faults.R == 0))
@@ -272,7 +272,7 @@ void UartDealRX(void)
 //							struFOC_CtrProc.bMC_RunFlg = 1;
 //					}				
 					
-					//There is an error status£¬then clear the error
+					//There is an error status, then clear the error
 					if (User_sys.BLDC_SensorlessCtr.sys_error_flg != 0)
 					{
 						User_sys.BLDC_SensorlessCtr.sys_error_flg = 0;	
